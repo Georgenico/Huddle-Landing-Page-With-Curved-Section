@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Reusable class */
+
+.f-open {
+  font-family: "Open Sans", sans-serif;
+}
+.f-pop {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* ******************* */
+/* Header Section */
+/* ******************* */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 9.6rem;
+  margin-bottom: 10rem;
+}
+.logo {
+  width: 16rem;
+  height: 2.5rem;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 50rem;
+  box-shadow: 0 0 2rem 0.1rem hsla(321, 100%, 78%, 0.253);
+  cursor: pointer;
+}
+
+/* ******************* */
+/* Hero Section */
+/* ******************* */
+
+.hero-section {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+}
+
+.primary-heading {
+  font-size: 4rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.text-container-center {
+  max-width: 60rem;
+  padding: 1rem 2.5rem;
+}
+
+.text-hero {
+  font-size: 2rem;
+  color: hsl(192, 100%, 9%);
+  font-weight: 400;
+}
+
+.main-button {
+  display: inline-block;
+  padding: 2rem 10rem;
+  border-radius: 99rem;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+  cursor: pointer;
+}
+.hero-img {
+  max-width: 85rem;
+  margin-bottom: 10rem;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stats-icon {
+  width: 3.6rem;
+}
+
+.stats-number {
+  font-size: 5.4rem;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+
+/* .svg-container {
+  background: url(./images/bg-section-top-desktop-1.svg),
+    url(./images/bg-section-bottom-desktop-2.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 500rem;
+  margin-bottom: 10rem;
+} */
