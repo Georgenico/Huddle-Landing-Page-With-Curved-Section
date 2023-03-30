@@ -36,11 +36,12 @@
     </style>
   </head>
   <body>
+    <header class="header">
+      <img class="logo" src="./images/logo.svg" alt="" />
+      <button class="btn">Try It Free</button>
+    </header>
+
     <main>
-      <header class="header">
-        <img class="logo" src="./images/logo.svg" alt="" />
-        <button class="btn">Try It Free</button>
-      </header>
       <section class="hero-section">
         <div class="hero">
           <div class="text-container">
@@ -81,29 +82,65 @@
       <!--**********-->
 
       <section>
+        <!-- Grow Together -->
         <div class="svg-container">
-          <p class="svg-text"></p>
+          <div class="svg-text-container">
+            <h2 class="svg-heading f-pop">Grow Together</h2>
+            <p class="svg-text f-open">
+              Generate meaningful discussion with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
           <img
-            class="svg-icon"
-            src="./images/bg-section-bottom-desktop-1.svg"
+            class="svg-img"
+            src="./images/illustration-grow-together.svg"
             alt=""
           />
+        </div>
+
+        <!-- Flowing Conversation -->
+        <div class="svg-container middle">
           <img
-            class="svg-icon"
-            src="./images/bg-section-bottom-desktop-2.svg"
+            class="svg-img"
+            src="./images/illustration-flowing-conversation.svg"
             alt=""
           />
+          <div class="svg-text-container">
+            <h2 class="svg-heading f-pop">Flowing Conversations</h2>
+            <p class="svg-text f-open">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+
+        <div class="svg-container">
+          <div class="svg-text-container">
+            <h2 class="svg-heading f-pop">Your Users</h2>
+            <p class="svg-text f-open">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start catting immediately.
+            </p>
+          </div>
+          <img
+            class="svg-img"
+            src="./images/illustration-your-users.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="svg-container middle solo">
+          <p class="com-text f-pop">Ready To Build Your Community?</p>
+          <button class="main-button f-pop">Get Started for Free</button>
         </div>
       </section>
     </main>
 
     <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
+      <img src="./images/logo.svg" alt="" />
     </footer>
   </body>
 </html>
